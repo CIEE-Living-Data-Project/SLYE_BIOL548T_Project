@@ -2,16 +2,29 @@
 title: "Manuscript"
 author: "Sadie Lye"
 date: "2022-09-22"
-output: pdf_document
 
-bibilography: Literature/BIOL548T_literature.bib
+csl: "literature/ecology-letters.csl"
+bibilography: "literature/BIOL548T_literature.bib"
 
+#format for Ecology Letters
 geometry: margin=1in
-head-includes:
+header-includes:
   -\usepackage{setspace}
   -\doublespacing
   -\usepackage{lineno}
   -\linenumbers
+  -\usepackage{fontspec}
+  -\linenumbers{Times New Roman}
+ 
+
+#output: pdf_document
+
+output: 
+  pdf_document: 
+    latex_engine: xelatex
+
+
+
 
 ---
 
