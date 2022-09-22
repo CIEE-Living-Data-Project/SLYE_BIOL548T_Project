@@ -7,7 +7,7 @@
 #########################################################################
 
 getwd() #my working directory is setup because I started a project
-#PAT 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
+
 
 #Creating Files with READ ME Files
 #READ ME Files created using menus
@@ -15,6 +15,7 @@ dir.create("data/")
 dir.create("scripts/")
 dir.create("literature/")
 dir.create("outputs/")
+dir.create("figures/")
 
 #make a subfolder
 dir.create("data/metadata")
@@ -53,7 +54,10 @@ csl: "ecology-letters.csl "
 
 ####this is for reference later, but I downloaded from Zotero and added to my directory
 
-
+##Using Github and generating PAT
+usethis::create_github_token()
+gitcreds::gitcreds_set()
+#PAT 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
 
 
 
