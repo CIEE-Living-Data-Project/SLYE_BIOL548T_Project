@@ -16,6 +16,7 @@ dir.create("scripts/")
 dir.create("literature/")
 dir.create("outputs/")
 dir.create("figures/")
+dir.create("manuscript/")
 
 #make a subfolder
 dir.create("data/metadata")
@@ -57,7 +58,7 @@ csl: "ecology-letters.csl "
 ##Using Github and generating PAT
 usethis::create_github_token()
 gitcreds::gitcreds_set()
-#PAT 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
+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#PAT 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
 
 
 
