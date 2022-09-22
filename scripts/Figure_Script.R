@@ -26,8 +26,12 @@ bar
 scatter <- ggplot(data = density, aes ( x= month, y = abundance, colour = species )) + geom_point() + facet_wrap(~year)
 scatter
 
-ggsave(bar, "figures/classification.png")
+#Saving Plots
+ggsave(path = "figures/",
+       device = "png", filename = "classification", plot = bar)
 
+ggsave(path = "figures/",
+       device = "png", filename = "density", plot = bar)
 
 ########### End of Script ##################
 
