@@ -8,3 +8,6 @@ construct a repository, push, and connect it to OSF.
 
 The repository contains the files one might expect to see in a typical ecological study including 
 data, scripts, figures, manuscript, etc. 
+
+Note: for this assignment I am not using package" "groundhog" as I use JAGS to run another analysis 
+and using groundhog will affect my ability to connect JAGS to R for baysiean analysis. 

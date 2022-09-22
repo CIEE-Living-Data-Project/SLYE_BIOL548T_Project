@@ -15,6 +15,7 @@ dir.create("data/")
 dir.create("scripts/")
 dir.create("literature/")
 dir.create("outputs/")
+dir.create("figures/")
 
 #make a subfolder
 dir.create("data/metadata")
