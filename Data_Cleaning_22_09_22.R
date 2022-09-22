@@ -27,11 +27,13 @@ write_csv(class_selected, "data/processed/NRCA_1995_2005_TLW_invertclassificatio
 
 #repeat with the invert density  data
 #selected columns were randomly chosen just to demonstrate some cleaning activity 
+#make a pivot table for graphing
 
 density_selected <- density %>% select("year", "month", "Alloperla",  "Ameletus",         
                                         "Antocha" , "Baetis", "Ceratopogonidae", "Chelifera",
                                        "Chironomidae" , "Chloroperlidae","Chloroperlinae",  "Clinocera",
-                                       "Dicranota", "Diptera", "Dixidae" , "Dolichopodidae" ) 
+                                       "Dicranota", "Diptera", "Dixidae" , "Dolichopodidae" ) %>% 
+pivot_longer(!c(year, month), names_to = "species" , values_to = "abundance")
 
 write_csv(density_selected, "data/processed/NRCA_1995_2005_TLW_invertdensity_cleaned.csv")
 
