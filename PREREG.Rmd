@@ -1,0 +1,72 @@
+---
+title           : "My preregistration for AsPredicted.org"
+shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : Sadie Lye
+    affiliation : "1"
+
+affiliation:
+  - id          : 1
+    institution : Institute for Ocean and Fisheries at UBC
+---
+
+<!-- To keep pre-registrations to a reasonable length for readers, we recommend answers fit within a single page .pdf document, roughly 3200 characters. Read more about this here: https://aspredicted.org/messages/why_limits.php -->
+
+## Data collection
+
+<!-- Have any data been collected for this study already? (Note: "Yes" is not an accepted answer.) -->
+
+**Yes**, we already collected the data. It was downloaded from Environment Canada. 
+
+## Hypothesis
+
+<!-- What's the main question being asked or hypothesis being tested in this study? -->
+
+At what  level did taxonomic classification occur for invertebrates and in what percentage? 
+What months in what did collection occur for select species?
+
+## Dependent variable
+
+Dependent variable: Percentage of level of classification. Months collection occured. 
+
+## Conditions
+
+N/A
+
+
+## Analyses
+
+A Barplot and Scatter plot will be used to visualize result. 
+
+## Outliers and exclusions
+
+Data has already been cleaned by Environment Canada. 
+
+
+## Sample size
+
+NA
+
+## Other
+
+NA
+
+## Study type
+
+Finally. For record keeping purposes, please tell us the type of study you are pre-registering.
+
+-   Class project or assignment
+
+# References
+
+## 
+
+```{=tex}
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+```
+\noindent
